@@ -25,7 +25,7 @@ def quiz():
     lang = input("Choose a language (E/H)? : ")
 
     # Import the language
-     lang in ["E", "e"]:
+     if lang in ["E", "e"]:
         from english import welcome_msg, level, correct, incorrect
     elif lang in ["H", "h"]:
         from hebrew import welcome_msg, level, correct, incorrect
